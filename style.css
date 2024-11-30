@@ -1,115 +1,170 @@
-/*Styling Text*/
-
-h1,
-h3,
-h4,
-p,
-li {
-    font-family: sans-serif;
-    color: #444444;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1,
-h2,
-h3 {
-    color: #1098ad;
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.red {
+  color: red;
 }
 
 h1 {
-    font-size: 26px;
-    text-transform: uppercase;
-    font-style: italic;
+  font-size: 30px;
+  line-height: 1.5;
 }
 
-h2 {
-    font-size: 40px;
+/* NAV */
+
+.nav-container {
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: #e1ebfa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-h3 {
-    font-size: 30px;
+.navbar {
+  display: flex;
+  gap: 15px;
 }
 
-h4 {
-    font-size: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    /* sets the horizontal alignment of the inline-level content inside a block element or table-cell box.*/
+.navbar a {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 
-p {
-    font-size: 22px;
-    line-height: 1.5;
-    /*sets the height of a line box. It's commonly used to set the distance between lines of text.*/
+/* SECTION 1 */
+
+.container-section1 {
+  background-color: #e1ebfa;
+  display: flex;
+  padding-left: 25%;
+  padding-right: 25%;
+  justify-content: space-between;
+  justify-content: flex-start;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-li {
-    font-size: 20px;
+.card-left-section1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: space-between;
 }
 
-/* ID Selector */
-#author {
-    font-style: italic;
-    font-size: 18px;
+.card-right-section1 img {
+  height: 300px;
 }
 
-#copyright {
-    font-size: 16px;
+.card-left-section1 p {
+  line-height: 1.5;
 }
 
-/* CLASS Selectors */
-.related-author {
-    font-size: 18px;
-    font-weight: bold;
+.buttons ul {
+  display: flex;
+  gap: 30px;
 }
 
-.related {
-    list-style-type: none;
+.container-section1 li {
+  list-style: none;
 }
 
-.main-header {
-    background-color: #f7f7f7;
+.container-section1 a:link,
+.container-section1 a:visited {
+  text-decoration: none;
+  background-color: #2f3f9f;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
-aside {
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
+.container-section1 a:hover {
+  background-color: red;
 }
 
-/* .first-li {
-    font-weight: bold;
-} */
+/* SECTION 2 */
 
-li:first-child {
-    font-weight: bold;
+#section2 {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
 }
 
-li:last-child {
-    font-style: italic;
+/* SECTION 3 */
+
+.container-section3 {
+  display: inline-flex;
+  gap: 10px;
+  justify-content: space-between;
+  padding-left: 25%;
+  padding-right: 25%;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 
-li:nth-child(2) {
-    color: red;
+.card1,
+.card2,
+.card3,
+.card4 {
+  width: 400px;
 }
 
-/* Styling Links */
-
-a:link {
-    color: #1098ad;
-    text-decoration: none;
+.container-section3 p {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-a:visited {
-    color: #1098ad;
+#section4 {
+  background-image: url("assets/pexels-cowomen-1058097-2041627.jpg");
+  background-repeat: no-repeat;
+  background-size: 3000px;
+  opacity: 09;
 }
 
-a:hover{
-    color: orangered;
-    font-weight: bold;
-    text-decoration: underline orangered;
+.container-section4 {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  text-align: center;
 }
 
-a:active {
-    background-color: black;
-    font-style: italic;
+.container-section4 h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+  padding-bottom: 20px;
+}
+
+.container-section4 a:link,
+.container-section4 a:visited {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container-section4 a:hover {
+  background-color: blue;
 }

@@ -1,104 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+    <title>Logos</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <div class="logo"><p class="cedarville-cursive-regular">Logos</p></div>
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Service</a>
+        <a href="#">Portofolio</a>
+        <a href="#">About</a>
+        <a href="#">Team</a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>The Basic Language of the web: HTML</title>
-</head>
+    <section id="section1">
+      <div class="container-section1">
+        <div class="card-left-section1">
+          <h1>
+            We provide easy <br />
+            <span class="red">solutions</span> for startups at affordable rates.
+          </h1>
+          <p>
+            Our methods are straight, comfortable, and established to ensure
+            evolution and acceleration.
+          </p>
+          <div class="buttons">
+            <ul>
+              <li><a href="#">Free Consultation</a></li>
+              <li><a href="#">Buy Credit</a></li>
+            </ul>
+          </div>
+        </div>
 
-<body>
+        <div class="card-right-section1">
+          <img src="assets/pexels-olly-840996.jpg" alt="" />
+        </div>
+      </div>
+    </section>
 
-    <header class="main-header">
-        <h1>📘 The Code Magazine</h1>
+    <section id="section2">
+      <h1>
+        You will get the perfect <span class="red">resolutions</span> with our
+        proficient services.
+      </h1>
+    </section>
 
-        <nav>
-            <a href="blog.html">Blog</a>
-            <a href="#">Challenges</a>
-            <a href="#">Flexbox</a>
-            <a href="#">CSS Grid</a>
-        </nav>
-    </header>
+    <section id="section3">
+      <div class="container-section3">
+        <div class="card1">
+          <h3>Market Research</h3>
+          <p>
+            We can help you to understand your target market and identify new
+            opportunities for growth. We offer a variety of market research
+            services, interviews, and focus groups.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card2">
+          <h3>Web Design</h3>
+          <p>
+            We can help you to create a visually appealing and user-friendly
+            website. We take into account your brand identity and target
+            audience when designing your website.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card3">
+          <h3>SEO Services</h3>
+          <p>
+            We can help you to improve your website's visibility in search
+            engine results pages (SERPs). This can lead to more traffic to your
+            website and more conversions.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="card4">
+          <h3>Content Marketing</h3>
+          <p>
+            We can help you to promote your business online through a variety of
+            digital marketing channels, including SEO, PPC, social media
+            marketing, and email marketing.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
 
-    <article>
-        <header>
-            <h2>The Basic Language of the Web: HTML</h2>
-
-            <img src="img/laura-jones.jpg" alt="Headshot of Laura Jones" height="50" width="50">
-
-            <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-
-            <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200">
-        </header>
-
-        <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS
-            and
-            JavaScript. These are the languages of the web</p>
-
-        <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
-
-        <h3>What is HTML?</h3>
-
-        <p>HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup
-            <strong>L</strong>anguage.
-            It's a markup language that web developers use to structure and
-            describe the content of a webpage (not a programming language).
-        </p>
-
-        <p>HTML consists of elements that describe different types of content: paragraphs, links, headings, images,
-            video,
-            etc. Web browsers understand HTML and render HTML code as websites.</p>
-
-        <p>In HTML, each element is made up of 3 parts:</p>
-
-        <ol>
-            <li class="first-li">The opening tag</li>
-            <li>The closing tag</li>
-            <li>The actual element</li>
-        </ol>
-
-        <p>You can learn more at the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web
-                Docs</a>.</p>
-
-        <h3>Why should you learn HTML?</h3>
-
-        <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
-
-        <ul>
-            <li class="first-li">To be able to use the fundamental web dev language</li>
-            <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
-            <li>To build web applications</li>
-            <li>To impress friends</li>
-            <li>To have fun 😃</li>
-        </ul>
-
-        <p>Hopefully you learned something new here. See you next time!</p>
-    </article>
-
-    <aside>
-        <h4>Related posts</h4>
-
-        <ul class="related">
-            <li>
-                <img src="img/related-1.jpg" alt="Person programming" width="75" height="75">
-                <a href="#">How to Learn Web Development</a>
-                <p class="related-author">By Jonas Schmedtmann</p>
-            </li>
-            <li>
-                <img src="img/related-2.jpg" alt="Lightning" width="75" height="75">
-                <a href="#">The Unknown Powers of CSS</a>
-                <p class="related-author">By Jim Dillon</p>
-            </li>
-            <li>
-                <img src="img/related-3.jpg" alt="Image of code" width="75" height="75">
-                <a href="#"> Why JavaScript is Awesome</a>
-                <p class="related-author">By Matilda</p>
-            </li>
-        </ul>
-    </aside>
-    <footer>
-        <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
-    </footer>
-</body>
-
+    <section id="section4">
+      <div class="container-section4">
+        <h1>
+          We are a design agency studio delivering custom creative & unique
+          websites.
+        </h1>
+        <a href="#">Join Us</a>
+      </div>
+    </section>
+  </body>
 </html>
